@@ -1,0 +1,38 @@
+@import './reset.css';
+
+
+.content_book{
+    width:auto;
+    background-color:#664229;
+    margin:0;
+    display:flex;
+
+}
+.left_bar{
+    margin-left:40px;
+    width:250px;
+    min-height:1200px;
+    margin-right:0;
+
+    padding:20px 40px;
+    display: flex;
+    flex-direction: column;
+}
+.genrelink{
+    font-size:24px;
+    margin-bottom:20px:
+    font-color:black;
+}
+
+.genrelink:active{
+	color: #808080;
+}
+
+.genrelink:hover{
+	color: #06038D;
+}
+
+.right_bar{
+    background-color:white;
+    width:1500px;
+}

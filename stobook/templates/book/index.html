@@ -1,0 +1,24 @@
+{% extends 'book/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<link rel="stylesheet" type="text/css" href="/static/css/books.css">
+<div class="content_book">
+    <div class="left_bar">
+        <a href="#" class="genrelink">Все</a>
+        <a href="#" class="genrelink">Все</a>
+        <a href="#" class="genrelink">Все</a>
+        <a href="#" class="genrelink">Все</a>
+        <a href="#" class="genrelink">Все</a>
+
+    </div>
+    <div class="right_bar">
+        {% block section %}
+
+        {% endblock %}
+
+    </div>
+</div>
+
+{% endblock %}

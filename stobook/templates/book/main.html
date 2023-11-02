@@ -1,0 +1,77 @@
+{% extends 'book/base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="/static/css/books.css">
+	<div class="header-content">
+         <img class="head_img" src="{% static '/img/headi.jpg' %}">
+		<div class="container">
+				<div class="header-title">
+					<h1 class="header-heading">Miracle
+					<br><span>Books for all ages</span></h1>
+				</div>
+		</div>
+	</div>
+	<section class="menu" id="menu">
+		<div class="container">
+    <h1 class="menu-title">  <span>Жанры</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="img/menu-1.jpeg" alt="">
+            <h3>Qazaqi naqyshta Taqiya</h3>
+
+            <a href="#" class="btn">Tapsyrys beru</a>
+        </div>
+
+        <div class="box">
+            <img src="img/menu-2.jpeg" alt="">
+            <h3>Qazaqi naqyshta Taqiya</h3>
+
+            <a href="#" class="btn">Tapsyrys Beru</a>
+        </div>
+
+        <div class="box">
+            <img src="img/menu-3.jpeg" alt="">
+            <h3>Qazaqi naqyshta Taqiya</h3>
+
+            <a href="#" class="btn">Tapsyrys Beru</a>
+        </div>
+
+        <div class="box">
+            <img src="img/menu-4.jpeg" alt="">
+            <h3>Qazaqi naqyshta Taqiya</h3>
+
+            <a href="#" class="btn">Tapsyrys Beru</a>
+        </div>
+
+        <div class="box">
+            <img src="img/menu-5.jpeg" alt="">
+            <h3>Qazaqi naqyshta Taqiya</h3>
+
+            <a href="#" class="btn">Tapsyrys Beru</a>
+        </div>
+
+        <div class="box">
+            <img src="img/menu-6.jpeg" alt="">
+            <h3>Qazaqi naqyshta Taqiya</h3>
+
+            <a href="#" class="btn">Tapsyrys Beru</a>
+        </div>
+
+    </div>
+</div>
+</section>
+<section class="footer">
+	<div class="container">
+
+    <div class="share">
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+        <a href="#" class="fab fa-whatsapp"></a>
+    </div>
+</div>
+    </section>
+
+{% endblock %}
